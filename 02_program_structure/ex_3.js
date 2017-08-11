@@ -1,4 +1,4 @@
-//alert("Good morning!");
+alert("Good morning!");
 
 var x = 30;
 console.log("the value of x is", x);
