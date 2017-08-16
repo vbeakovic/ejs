@@ -9,8 +9,7 @@ exports.phi = function(table) {
 }
 
 
-
-exports.hasEvent = function(event, entry) {
+function hasEvent(event, entry) {
   return entry.events.indexOf(event) != -1;
 }
 
