@@ -23,6 +23,14 @@ function sum(arr) {
   }
   return sum;
 }
+console.log(sum(range(1, 10)));
 
 
-console.log(range(1, 10));
+function reverseArray(arr) {
+  var auxArr = [];
+  for (var i = 0; i < arr.length; i++) {
+    auxArr[i] = arr[arr.length - i - 1];
+  }
+  return auxArr;
+}
+console.log(reverseArray(["A", "B", "C"]));
