@@ -6,9 +6,7 @@ function range(start, end, step) {
     arr.push(i);
     }
   } else if (start > end && (step < 0 || step == undefined)) {
-      console.log('I am here!');
       var iterStep = step == undefined ? -1 : step;
-      console.log(iterStep);
       for (var i = end; i < start + 1 ; i = i - iterStep) {
         arr.unshift(i);
     }
@@ -27,5 +25,4 @@ function sum(arr) {
 }
 
 
-
-console.log(range(2, 5, 2));
+console.log(range(1, 10));
