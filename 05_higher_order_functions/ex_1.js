@@ -4,3 +4,7 @@ while (count <= 10) {
   count += 1;
 }
 console.log(total);
+
+
+// sum & range not defined
+console.log(sum(range(1, 10)));
