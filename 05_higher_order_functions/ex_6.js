@@ -13,3 +13,7 @@ console.log(ancestry[1]);
 console.log(filter(ancestry, function(person) {
   return person.born > 1900 && person.born < 1925;
 }));
+
+console.log(ancestry.filter(function(person) {
+  return person.father == "Carel Haverbeke";
+}));
